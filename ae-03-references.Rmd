@@ -1,0 +1,17 @@
+---
+title: "Application Exercise"
+subtitle: "References"
+output: html_document
+bibliography: rbtl-fs22.bib  
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+Some text [@broman2018data].
+
+# References
+
