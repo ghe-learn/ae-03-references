@@ -1,17 +1,22 @@
 ---
-title: "Application Exercise"
-subtitle: "References"
+title: "Application Exercise 03"
+subtitle: "References and Citation Keys"
 output: html_document
-bibliography: rbtl-fs22.bib  
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 # Introduction
 
-Some text [@broman2018data].
+You can cite references directly in the text using the `@key`:
+
+- The paper by *REFERENCE-1* is an important paper for week 5 of the course.
+
+To put citations in parenthesis, you use `[@key]`:
+
+- In your data, always write dates as YYYY-MM-DD [*REFERENCE-1*].
+
+To cite multiple entries, seperate the keys by semicolons, [`@key-1`, `@key2`]
+
+- A data dictionary is a seperate files from your data that describes all the variables. It is information about your data, also called metadata. [*REFERENCE-1*; *REFERENCE-2*]
 
 # References
 
